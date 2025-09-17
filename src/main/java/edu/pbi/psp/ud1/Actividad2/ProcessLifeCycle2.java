@@ -10,7 +10,6 @@ public class ProcessLifeCycle2 {
         Scanner teclado = new Scanner(System.in);
         System.out.print("Introduce la IP: ");
         String IP = teclado.nextLine();
-        int i = 0;
         CompletableFuture<Long> proceso1 = ping(IP);
         CompletableFuture<Long> proceso2 = ping(IP);
         try {
