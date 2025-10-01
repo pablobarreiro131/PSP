@@ -34,7 +34,6 @@ public class ProcessLifeCycle2 {
                 int exitCode = p.waitFor();
                 Instant end = Instant.now();
                 Long duracion = Duration.between(start, end).toMillis();
-                // FINISHED: terminó su trabajo
                 return duracion;
             } catch (Exception e) {
                 e.getMessage();

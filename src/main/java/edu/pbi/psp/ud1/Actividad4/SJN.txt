@@ -1,0 +1,17 @@
+ESCENARIO 1:
+0: P3
+1: P2
+5: P4
+9: P1
+16: FINAL
+WT:15
+
+
+ESCENARIO 2:
+0: P3
+2: P4
+4: P2
+8: P5
+10: P1
+15: FINAL
+WT:

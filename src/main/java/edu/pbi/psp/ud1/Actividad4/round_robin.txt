@@ -1,0 +1,16 @@
+ESCENARIO 1:
+0: P1
+3: P2
+6: P3
+8: P1
+9: P2
+11: FINAL
+
+ESCENARIO 2:
+0: P2
+2: P4
+4: P2
+6: P3
+8: P1
+10: P1
+12: FINAL

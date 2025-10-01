@@ -1,0 +1,7 @@
+1. tasklist /v /fi "PID eq 264"
+2. tasklist /fi "MEMUSAGE gt 15000" /fi "MEMUSAGE lt 19000"
+3. tasklist /fi "imagename eq brave.exe" & tasklist /fi "imagename eq notepad.exe"
+4. tasklist /fo csv /fi "PID gt 1000" >> procesos.csv
+5. tasklist /v "status eq RUNNING"
+6. taskkill /PID 2588
+7. taskill /im "notepad.exe" /f
